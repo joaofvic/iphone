@@ -139,7 +139,6 @@ classDiagram
     TelephoneDevice --> VoiceMailMessage
     SafariBrowser --> Tab
     InternetBrowser --> Tab
-```mermaid
 
 ## 👨‍💻 Autor
 
