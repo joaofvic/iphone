@@ -54,7 +54,7 @@ O projeto está organizado na seguinte estrutura de pacotes:
 
 A arquitetura final do sistema foi modelada em UML e pode ser visualizada de forma interativa através do link abaixo.
 
-**Ver Diagrama Interativo no Mermaid Chart:** [https://www.mermaidchart.com/app/projects/99e6f5f4-f33e-40db-a611-a1fb662de9b2/diagrams/19623c79-a913-45c5-881e-ee9efc34102b/version/v0.1/edit](https://www.mermaidchart.com/app/projects/99e6f5f4-f33e-40db-a611-a1fb662de9b2/diagrams/19623c79-a913-45c5-881e-ee9efc34102b/version/v0.1/edit)
+**Ver Diagrama Interativo:** [https://www.mermaidchart.com/app/projects/99e6f5f4-f33e-40db-a611-a1fb662de9b2/diagrams/19623c79-a913-45c5-881e-ee9efc34102b/version/v0.1/edit](https://www.mermaidchart.com/app/projects/99e6f5f4-f33e-40db-a611-a1fb662de9b2/diagrams/19623c79-a913-45c5-881e-ee9efc34102b/version/v0.1/edit)
 
 ```mermaid
 classDiagram
@@ -139,3 +139,11 @@ classDiagram
     TelephoneDevice --> VoiceMailMessage
     SafariBrowser --> Tab
     InternetBrowser --> Tab
+```mermaid
+
+## 👨‍💻 Autor
+
+**João Victor Firmino Sousa**
+
+* **LinkedIn:** [João Victor Firmino Sousa](https://www.linkedin.com/in/jo%C3%A3o-victor-firmino-sousa-130874208/)
+* **GitHub:** [@joaofvic](https://github.com/joaofvic)
