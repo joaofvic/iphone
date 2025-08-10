@@ -139,6 +139,7 @@ classDiagram
     TelephoneDevice --> VoiceMailMessage
     SafariBrowser --> Tab
     InternetBrowser --> Tab
+```
 
 ## 👨‍💻 Autor
 
