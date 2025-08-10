@@ -19,7 +19,7 @@ O projeto implementa três funcionalidades principais de um iPhone:
 Este projeto não é apenas uma simulação, mas um estudo de caso prático da aplicação dos seguintes princípios de engenharia de software:
 
 - **Modelagem UML e Arquitetura de Software:** Todo o projeto foi planejado e arquitetado através de um diagrama de classes UML antes da escrita do código. O diagrama serviu como um *blueprint*, definindo as classes, interfaces, seus relacionamentos (Composição, Implementação, Dependência) e os contratos dos métodos, guiando todo o desenvolvimento.
-- **Programação Orientada a Objetos (POO):** Uso de classes, objetos, encapsulamento e polimorfismo como base de toda a estrutura.
+- **Programação Orientada a Objetos (POO):** Uso de classes, objetos, encapsulamento и polimorfismo como base de toda a estrutura.
 - **Design Orientado a Interfaces:** A aplicação é programada para interfaces (`MusicPlayer`, `TelephoneDevice`, etc.), não para implementações concretas, promovendo baixo acoplamento e alta flexibilidade.
 - **Padrão de Projeto - Composição sobre Herança:** A classe `Iphone` é composta por seus componentes (`CellularModule`, `SafariBrowser`, etc.), evitando o problema da "classe Deus" e promovendo a reutilização de código.
 - **Padrão de Projeto - Fachada (Facade):** A classe `Iphone` atua como uma fachada, fornecendo uma interface simples e unificada para o sistema complexo de componentes internos.
@@ -48,17 +48,13 @@ O projeto está organizado na seguinte estrutura de pacotes:
 ├── TelephoneDevice.java
 └── VoiceMailMessage.java
 
-
 ---
 
 ## 📊 Diagrama UML do Projeto
 
 A arquitetura final do sistema foi modelada em UML e pode ser visualizada de forma interativa através do link abaixo.
 
-**[Ver Diagrama Interativo no Mermaid Chart](https://www.mermaidchart.com/app/projects/99e6f5f4-f33e-40db-a611-a1fb662de9b2/diagrams/19623c79-a913-45c5-881e-ee9efc34102b/version/v0.1/edit)**
-
-<details>
-<summary>📜 Clique para expandir o código Mermaid do diagrama</summary>
+**Ver Diagrama Interativo no Mermaid Chart:** [https://www.mermaidchart.com/app/projects/99e6f5f4-f33e-40db-a611-a1fb662de9b2/diagrams/19623c79-a913-45c5-881e-ee9efc34102b/version/v0.1/edit](https://www.mermaidchart.com/app/projects/99e6f5f4-f33e-40db-a611-a1fb662de9b2/diagrams/19623c79-a913-45c5-881e-ee9efc34102b/version/v0.1/edit)
 
 ```mermaid
 classDiagram
@@ -137,17 +133,9 @@ classDiagram
     Iphone *-- DefaultMusicPlayer
     Iphone *-- CellularModule
     Iphone *-- SafariBrowser
-    
+
     Program --> Iphone
     CellularModule --> VoiceMailMessage
     TelephoneDevice --> VoiceMailMessage
     SafariBrowser --> Tab
     InternetBrowser --> Tab
-</details>
-
-## 👨‍💻 Autor
-
-**João Victor Firmino Sousa**
-
-* **LinkedIn:** [João Victor Firmino Sousa](https://www.linkedin.com/in/jo%C3%A3o-victor-firmino-sousa-130874208/)
-* **GitHub:** [@joaofvic](https://github.com/joaofvic)
