@@ -31,7 +31,7 @@ Este projeto não é apenas uma simulação, mas um estudo de caso prático da a
 ## 🏛️ Estrutura do Projeto
 
 O projeto está organizado na seguinte estrutura de pacotes:
-
+```
 /src
 ├── application
 │   └── Program.java         # Ponto de entrada e menu interativo
@@ -47,7 +47,7 @@ O projeto está organizado na seguinte estrutura de pacotes:
 ├── Tab.java
 ├── TelephoneDevice.java
 └── VoiceMailMessage.java
-
+```
 ---
 
 ## 📊 Diagrama UML do Projeto
